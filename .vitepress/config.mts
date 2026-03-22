@@ -5,6 +5,9 @@ export default defineConfig({
   description: 'ソウル 2泊3日の旅',
   base: '/k-trp/',
   lang: 'ja',
+  head: [
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }]
+  ],
   themeConfig: {
     nav: [
       { text: 'ホーム', link: '/' }
