@@ -1,0 +1,11 @@
+.vp-doc input[type="checkbox"] {
+  cursor: pointer;
+  width: 1.1em;
+  height: 1.1em;
+  accent-color: var(--vp-c-brand-1);
+}
+
+.vp-doc li:has(> input[type="checkbox"]:checked) {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
